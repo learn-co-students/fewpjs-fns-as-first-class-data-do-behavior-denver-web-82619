@@ -25,3 +25,6 @@ function greet(timeString) {
 console.log(greet("17:45"))
 
 /* Write your implementation of displayMessage() */
+function displayMessage(message){
+    document.getElementById("greeting").innerText = message
+}
